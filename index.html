@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data:; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'"><meta name="referrer" content="no-referrer"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0f766e"><title>Reaction Garden · Class 12 Chemistry</title>
+<meta name="description" content="Class 12 CBSE organic chemistry named reactions: understand, visualise, recall and apply.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<noscript><p>Reaction Garden needs JavaScript to show the reactions. Please enable it in your browser.</p></noscript>
+<div id="boot" role="status" aria-live="polite" aria-label="Loading Reaction Garden"><svg class="bm" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle class="rg" cx="60" cy="60" r="54"/><path class="hx" d="M60 16L98.1 38L98.1 82L60 104L21.9 82L21.9 38Z" pathLength="1"/><g class="orb"><circle cx="60" cy="6" r="5"/><circle cx="106.8" cy="87" r="5"/><circle cx="13.2" cy="87" r="5"/></g></svg><p class="bt">Reaction Garden</p><p class="bh">Growing your garden…</p><span class="bb"><i></i></span><small>Class 12 · Named reactions</small></div>
+<div id="sbar" aria-hidden="true"><i></i></div>
+<a class="vh" href="#cols">Skip to reactions</a>
+<header class="hero">
+<span class="fl f1" aria-hidden="true">🧪</span><span class="fl f2" aria-hidden="true">⚛️</span><span class="fl f3" aria-hidden="true">✨</span><span class="fl f4" aria-hidden="true">🌿</span>
+<p class="hand">Class 12 · CBSE · NEET · JEE</p>
+<h1>Reaction Garden</h1>
+<svg class="sq" aria-hidden="true" width="230" height="18" viewBox="0 0 230 18"><path d="M4 11c20-10 36 8 56-1s36-9 56 0 36 9 56 0 36-6 54 0" fill="none" stroke="#e9b000" stroke-width="4" stroke-linecap="round" pathLength="1"/></svg>
+<p class="sub">Named reactions, explained simply, then explored step by step. Understand it, watch the mechanism, recall it, then apply it in exam-style questions. 🌱</p>
+<div class="pg" id="pgb" role="progressbar" aria-label="Reactions mastered" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div><small id="cnt"></small>
+<div class="stats" id="stats"></div>
+</header>
+<div class="shell">
+<aside class="panel" aria-label="Find and study tools">
+<section class="pc" aria-labelledby="h-find">
+<h2 class="hd hd-hand" id="h-find">Find a reaction</h2>
+<div class="srch"><input type="search" id="q" placeholder="Search name, reagent, product or keyword…" aria-label="Search reactions" autocomplete="off" spellcheck="false" maxlength="80"></div>
+<p class="mini">Topic</p>
+<nav class="chips" id="catc" aria-label="Reaction categories"></nav>
+<p class="mini">Progress</p>
+<div class="chips two" id="stc" role="group" aria-label="Filter by progress"></div>
+</section>
+<details class="pc tools" id="tools">
+<summary><span class="hd hd-eye">Study tools</span><span class="chev" aria-hidden="true">⌄</span></summary>
+<div class="tg">
+<p class="tl">Revise</p>
+<div class="trow">
+<button type="button" class="btn" id="cv" aria-pressed="false">🙈 Cover mode<small>Hide the products, then recall</small></button>
+<button type="button" class="btn" id="qr" aria-pressed="false">⚡ Quick revision<small>Hook, trap and conditions at a glance</small></button>
+</div>
+<p class="tl">Practise</p>
+<div class="trow">
+<button type="button" class="btn" data-mode="random">🎲 Random practice<small>Endless single questions</small></button>
+<button type="button" class="btn" data-mode="mixed">🧪 Mixed quiz<small>10 questions, instant feedback</small></button>
+<button type="button" class="btn" data-mode="exam">📝 Exam practice<small>10 questions, marked at the end</small></button>
+</div>
+<p class="tl">Track</p>
+<div class="trow"><button type="button" class="btn" id="prg">📊 Progress<small>Scores, weak topics, mistakes</small></button></div>
+</div>
+</details>
+</aside>
+<main class="main">
+<p id="empty" role="status" hidden>No reactions match. Try a different word or clear the filters. 🔎</p>
+<div class="cols" id="cols"></div>
+</main>
+</div>
+<footer><p class="hand">Made for curious minds 🌙 · 30 reactions · mastered only after recall and practice 🌱</p>
+<p class="fine">Privacy: no accounts, cookies, tracking or network calls from this page except the Google Fonts stylesheet. Your progress stays in this browser only. Safety: this is exam-prep material, not a lab manual. Several of these reagents (Br₂, CHCl₃, CrO₂Cl₂, isocyanides, CO) are toxic or corrosive; never attempt a reaction without a qualified teacher and proper protection.</p></footer>
+<button type="button" class="fab" id="totop" aria-label="Back to top" hidden>↑</button>
+<dialog id="dlg" aria-labelledby="dt"><div class="dh"><h2 id="dt"></h2><button type="button" class="btn" id="dx" aria-label="Close dialog">✕ Close</button></div><div class="db" id="dbody"></div></dialog>
+<div class="vh" id="live" role="status" aria-live="polite"></div>
+<script src="script.js" defer></script></body></html>
